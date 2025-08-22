@@ -148,7 +148,6 @@
         justify-content: center;
         align-items: center;
         width: 80%;
-        height: 80px;
         margin: 0;
 
     }
@@ -315,7 +314,7 @@
 
     .main__content p {
         margin-top: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         transform: translate(0%, 0%);
     }
 
@@ -429,6 +428,7 @@ a:hover, a:active { text-decoration: none; }
     
     .services__card button {
        font-size: 2rem;
+
     }
 
 }
