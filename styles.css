@@ -240,7 +240,7 @@
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -267,6 +267,7 @@
 
 /*Mobile Mode */
 @media screen and (max-width: 768px) {
+
     .main__container {
         display: grid;
         grid-template-columns: auto;
@@ -279,31 +280,36 @@
 
     .main__content h1 {
         font-size: 6rem;
-        margin-top: 0rem;
         transform: translate(0%, 0%);
         text-align: center;
     }
 
     .main__content h2 {
         font-size: 3rem;
+        transform: translate(0%, 0%);
     }
 
     .main__content p {
         margin-top: 28rem;
         font-size: 1.5rem;
+        transform: translate(0%, -400%);
 
     }
 } 
 
 @media screen and (max-width: 480px) {
     
+    .main {
+    background-position: bottom;
+    }   
+
     .main__container {
         background-color: #000000;
     }
 
     .main__content h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
+        font-size: 2.5rem;
+        transform: translate(0%, 50%);
 
     }
 
@@ -314,6 +320,7 @@
     .main__content p {
         margin-top: 2rem;
         font-size: 1.5rem;
+        transform: translate(0%, 0%);
     }
 
     .main__btn {
@@ -349,7 +356,8 @@
    display: flex;
    justify-content: center;
    flex-wrap: wrap; 
-}
+  }
+
 
 .services__card {
     margin: 3rem;
@@ -366,6 +374,14 @@
     text-shadow: 2px 2px 6px #262626;
 }
 
+.project__card {
+    margin: 3rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: url('/images/car.png');
+
+}
 .services__card button {
     font-size: 1rem;
     position: absolute;
@@ -407,8 +423,16 @@ a:hover, a:active { text-decoration: none; }
     }
 
     .services h1 {
-        font-size: 2rem;
-        margin-top: 12rem;
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+
+    .services__card h2 {
+    justify-content: center;
+    }
+    
+    .services__card button {
+       font-size: 2rem;
     }
 
 }
@@ -419,11 +443,20 @@ a:hover, a:active { text-decoration: none; }
     }
 
     .services h1 {
-        font-size: 1.2rem;
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+
+    .services__card h2 {
+    justify-content: center;
     }
 
     .services__card {
         width: 300px;
+    }
+
+    .services__card button {
+      font-size: 2rem;
     }
 }
 
@@ -615,4 +648,13 @@ a:hover, a:active { text-decoration: none; }
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.services23 {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 90vh;
+}
+
 
