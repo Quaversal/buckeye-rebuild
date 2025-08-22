@@ -178,7 +178,7 @@
 .main {
     background-image: url('images/Background\ resized.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
 }
 
@@ -298,10 +298,6 @@
 } 
 
 @media screen and (max-width: 480px) {
-    
-    .main {
-    background-position: bottom;
-    }   
 
     .main__container {
         background-color: #000000;
@@ -625,9 +621,11 @@ a:hover, a:active { text-decoration: none; }
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     justify-self: center;
+    align-items: center;
     transform: translate(0%, 50%);
     text-shadow: 2px 2px 8px #ff1900;
 }
+
 
 .services2 {
     background: #000000;
@@ -647,6 +645,7 @@ a:hover, a:active { text-decoration: none; }
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    
 }
 
 .services23 {
