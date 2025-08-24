@@ -313,7 +313,7 @@
     }
 
     .main__content p {
-        margin-top: 2rem;
+        margin-top: 16rem;
         font-size: 1.2rem;
         transform: translate(0%, 0%);
     }
@@ -440,7 +440,7 @@ a:hover, a:active { text-decoration: none; }
 
     .services h1 {
         font-size: 3rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .services__card h2 {
