@@ -379,7 +379,7 @@
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background-image: url('/images/car.png');
+    background-image: url('/images/car5.png');
 
 }
 .services__card button {
@@ -401,7 +401,7 @@
 
 /* makes all default html blue links white */
 a {color: white}
-
+  
 a { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -410,6 +410,18 @@ a:hover, a:active { text-decoration: none; }
 
 .services__card:nth-child(2) {
     background-image: url('/images/psu.png');
+}
+
+.services__card:nth-child(3) {
+    background-image: url('/images/car4.png');
+}
+
+.services__card:nth-child(4) {
+    background-image: url('/images/car5.png');
+}
+
+.project__card:nth-child(2) {
+    background-image: url('/images/car6.png');
 }
 
 .services__card:hover {
@@ -453,7 +465,7 @@ a:hover, a:active { text-decoration: none; }
     }
 
     .services__card {
-        width: 300px;
+        width: 400px;
     }
 
     .services__card button {
@@ -643,8 +655,8 @@ a:hover, a:active { text-decoration: none; }
 .services2 h1 {
     background-color: #ffffff;
     background-size: 100%;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
